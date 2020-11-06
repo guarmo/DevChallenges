@@ -1,0 +1,174 @@
+/* Vars */
+:root {
+    --ultraDarkBlue: #1D355D;
+    --darkBlue: #2F527B;
+    --lightBlue: rgba(96, 102, 208, 0.8);
+    --yellow: #F9A826;
+    --red: #EA8282;
+    --green: #60BF88;
+    --white: #F2F2F2;
+}
+/* Utilities */
+.btn {
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: bold;
+    border-radius: 10px;
+}
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    height: 510px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.hover:hover {
+    cursor: pointer;
+    filter: opacity(0.8);
+}
+.show {
+    display: block !important;
+}
+
+/* Main */
+.main {
+    position: relative;
+}
+
+.main .adventureImg {
+    position: absolute;
+    right: 0;
+}
+
+.main .header {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: var(--white);
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Card questions */
+.card.card-questions{
+    padding: 70px 30px 50px 30px;
+}
+
+.card .question {
+    color: var(--darkBlue);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card .choice {
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--lightBlue);
+    font-weight: 500;
+    border: 1px solid var(--lightBlue);
+}
+
+.card .choice .option {
+    margin-left: 40px;
+}
+
+.card .choice.selectedBg {
+    background-color: var(--yellow);
+    color: #fff;
+    border: none;
+}
+
+/* Answered mode */
+.card .choice.incorrect {
+    background-color: var(--red);
+    color: #fff;
+}
+
+.card .choice.correct {
+    background-color: var(--green);
+    color: #fff;
+}
+
+.card footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Next btn */
+footer .nextBtn {
+    background-color: var(--yellow);
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    display: none;
+}
+
+/* Card results */
+.card.card-results {
+    padding: 20px 0;
+    align-items: center;
+    color: var(--ultraDarkBlue);
+}
+
+.card.card-results h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.card.card-results .correctNum {
+    font-size: 40px;
+    color: var(--green);
+    font-weight: bold;
+}
+
+.tryAgainBtn {
+    padding: 15px 50px;
+    color: var(--ultraDarkBlue);
+    border: 1px solid var(--ultraDarkBlue);
+    background-color: transparent;
+}
+
+/* Media queries */
+@media screen and (max-width: 750px) {
+    
+}
+@media screen and (max-width: 600px) {
+    body {
+        padding: 0 20px;
+        font-size: 16px;
+    }
+    .main .header {
+        margin-bottom: 100px;
+    }
+    .main .adventureImg {
+        top: 40px;
+    }
+    .card {
+        width: initial;
+        height: initial;
+    }
+    .card .question {
+        text-align: center;
+    }
+    .card.card-questions {
+        padding: 10px;
+    }
+    .card .choice {
+        padding: 5px;
+        margin: 10px;
+    }
+    .card .choice .option {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
