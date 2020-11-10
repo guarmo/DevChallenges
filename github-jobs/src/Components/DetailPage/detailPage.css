@@ -1,0 +1,61 @@
+.detailPage .top {
+    display: flex;
+    align-items: center;
+}
+.detailPage .top .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.detailPage .top .info {
+    border: 1px solid var(--blue);
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--blue);
+    font-weight: 700;
+}
+
+.backDiv, .locationDiv, .daysAgoDiv {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.daysAgo {
+    color: var(--gray);
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.detailPage .logo {
+    width: 42px;
+    min-width: 42px;
+    height: auto;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.detailPage .logoName {
+    display: flex;
+    margin: 30px 0;
+}
+.detailPage .companyName {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.detailPage .logoName .rightSide {
+    display: flex;
+    flex-direction: column;
+}
+
+.detailPage .logoName .rightSide .location {
+    color: var(--gray);
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 5px;
+}

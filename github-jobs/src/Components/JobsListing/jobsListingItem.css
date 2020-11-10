@@ -1,0 +1,124 @@
+.item {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                0 2px 4px rgba(0,0,0,0.07), 
+                0 4px 8px rgba(0,0,0,0.07), 
+                0 8px 16px rgba(0,0,0,0.07),
+                0 16px 32px rgba(0,0,0,0.07), 
+                0 32px 64px rgba(0,0,0,0.07);
+    border-radius: 5px;
+    margin: 15px 0;
+}
+.logo {
+    width: 90px;
+    min-width: 90px;
+    height: auto;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.jobListingContainer {
+    width: 100%;
+}
+.jobListingContainer header {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.jobListingContainer main {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.jobListingContainer footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--gray);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.jobListingContainer footer .info {
+    border: 1px solid var(--blue);
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--blue);
+    font-weight: 700;
+}
+
+.jobListingContainer footer .details {
+    display: flex;
+}
+
+.jobListingContainer footer .details * {
+    padding-left: 10px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+/* Page numbers */
+.page-numbers {
+    list-style-type: none;
+    display: flex;
+}
+
+.page-numbers li {  
+    cursor: pointer;
+    border: 1px solid var(--gray);
+    color: var(--gray);
+    /* padding: 10px; */
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-numbers li:hover {
+    border: 1px solid var(--btnBlue);
+    color: var(--btnBlue);
+}
+.page-numbers li.arrow {
+    padding: 0;
+    
+}
+.page-numbers li.arrow img {
+    width: 20px;
+    height: auto;
+}
+.page-numbers li.prevArrow {
+    padding-left: 8px;
+}
+.selected {
+    background-color: var(--btnBlue);
+    color: #fff;
+}
+/* Loader */
+.loaderContainer {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader {
+    border: 16px solid var(--gray); 
+    border-top: 16px solid var(--btnBlue); 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

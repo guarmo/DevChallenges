@@ -1,0 +1,15 @@
+.back {
+  color: var(--btnBlue);
+  cursor: pointer;
+}
+
+.howTo {
+  color: var(--gray);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.apply {
+  max-width: 150px;
+  overflow: hidden;
+}

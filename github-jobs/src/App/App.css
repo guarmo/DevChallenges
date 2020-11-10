@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 40px 20px;
+  color: var(--blue);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+/* Aside */
+aside {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+aside div {
+  margin-bottom: 10px;
+}
+aside label {
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+/* Media queries */
+@media screen and (max-width: 950px) {
+  .inputGroup {
+    width: initial;
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .locationInput {
+    width: 100% !important;
+  }
+
+  .jobListingContainer .company {
+    font-size: 20px;
+    margin: 15px 0;
+  }
+  .page-numbers {
+    max-width: 380px;
+    margin: 10px 0;
+  }
+}
