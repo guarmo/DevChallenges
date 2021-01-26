@@ -1,0 +1,37 @@
+.material-icons {
+  color: #fff;
+}
+.done-icon {
+  padding: 6px;
+  background-color: var(--green);
+  border-radius: 50%;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.upload-img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
+}
+.link-input {
+  background-color: var(--inputGray);
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.btn-link {
+  padding: 8px 15px;
+  position: absolute;
+  top: 4px;
+  right: 3px;
+  font-size: 13px;
+}

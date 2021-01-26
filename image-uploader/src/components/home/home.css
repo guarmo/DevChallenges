@@ -1,0 +1,35 @@
+.sub-h {
+  margin: 15px 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  width: 100%;
+  background-color: var(--lightGray);
+  border: 2px dashed var(--lightBlue);
+  border-radius: 12px;
+}
+
+.dropHeading {
+  margin: 20px 0 0 0;
+  opacity: 0.7;
+}
+
+.or {
+  margin: 15px 0;
+}
+
+.btn-choose {
+  padding: 10px 20px;
+}
+
+.btn-hide {
+  display: none;
+}
+
+input[type="file"] {
+  display: none;
+}
