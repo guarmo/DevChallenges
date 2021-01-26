@@ -40,7 +40,7 @@
 ![screenshot](https://firebasestorage.googleapis.com/v0/b/image-loader-58c58.appspot.com/o/images%2FScreenshot%202021-01-26%20at%2012.01.18.png?alt=media&token=5904c5bf-c8ee-4b35-9b04-c5da6e94fe93)
 
 Here's image uploader: https://hardcore-shirley-3a9287.netlify.app/
-an app I developed witht the aim of improving my problem solving skills and get fully comfortable with developing full-stack React applications.
+an app I developed with the aim of improving my problem solving skills and get fully comfortable with developing full-stack React applications.
 Thanks to this project I've learned how to update images with Firebase.
 
 ### Built With
