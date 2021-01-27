@@ -10,3 +10,6 @@ This repository includes the solutions for challenges found at [Dev Challenges](
 | 4.    | Github Jobs                              | [Details](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps)     | [Folder_link](https://github.com/guarmo/DevChallenges/tree/main/github-jobs) | [Netlify](https://musing-wescoff-5c1ed2.netlify.app/)   |
 | 5.    | My team page                              | [Details](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U)     | [Folder_link](https://github.com/guarmo/100-days-of-code/tree/master/Day64-My-team-page) | [Netlify](https://goofy-bhabha-119907.netlify.app/)   |
 | 6.    | Image Uploader                             | [Details](https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx)     | [Folder_link](https://github.com/guarmo/DevChallenges/tree/main/image-uploader) | [Netlify](https://hardcore-shirley-3a9287.netlify.app/)   |
+| 7.    | My Unsplash                            | [Details](https://devchallenges.io/challenges/rYyhwJAxMfES5jNQ9YsP)     | [Folder_link](https://github.com/guarmo/DevChallenges/tree/main/my-unsplash) | [Heroku](https://secret-badlands-45247.herokuapp.com/)   |
+
+
