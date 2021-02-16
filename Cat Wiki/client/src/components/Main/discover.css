@@ -1,0 +1,12 @@
+.discoverImg {
+  max-height: 180px;
+  min-height: 180px;
+  width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .discoverImg {
+    max-height: 100px;
+    min-height: 100px;
+  }
+}

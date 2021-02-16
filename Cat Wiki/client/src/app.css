@@ -1,0 +1,74 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Black section */
+.header-copy {
+  max-width: 75%;
+}
+/* Gray section */
+.discover-copy {
+  max-width: 50%;
+}
+/* White section */
+.copy {
+  max-width: 50%;
+}
+.copy-container {
+  max-width: 75%;
+}
+
+.images {
+  max-width: 50%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  gap: 20px;
+  grid-template-areas:
+    "img2 img2 img2 img3 img3 img3"
+    ". img1 img1 img3 img3 img3"
+    ". img1 img1 img3 img3 img3";
+}
+
+.img1 {
+  grid-area: img2;
+}
+
+.img2 {
+  grid-area: img1;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.detailsImg {
+  max-height: 180px;
+  min-height: 180px;
+  width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .main-h {
+    font-size: 10px;
+  }
+  .header-copy {
+    max-width: 100%;
+  }
+  .discover-copy {
+    max-width: 100%;
+  }
+  .copy {
+    max-width: 100%;
+  }
+  .copy-container {
+    max-width: 100%;
+  }
+  .images {
+    max-width: 100%;
+  }
+  .detailsImg .discoverImg {
+    max-height: 100px;
+    min-height: 100px;
+  }
+}
