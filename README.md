@@ -12,7 +12,7 @@ This repository includes the solutions for challenges found at [Dev Challenges](
 | 6.    | Image Uploader                             | [Details](https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx)     | [Folder_link](https://github.com/guarmo/DevChallenges/tree/main/image-uploader) | [Netlify](https://hardcore-shirley-3a9287.netlify.app/)   |
 | 7.    | My Unsplash                            | [Details](https://devchallenges.io/challenges/rYyhwJAxMfES5jNQ9YsP)     | [Folder_link](https://github.com/guarmo/DevChallenges/tree/main/my-unsplash) | [Heroku](https://secret-badlands-45247.herokuapp.com/)   |
 | 8.    | Authentication App                            | [Details](https://devchallenges.io/challenges/N1fvBjQfhlkctmwj1tnw)     | [Folder_link](https://github.com/guarmo/DevChallenges/tree/main/Auth-app) | [Firebase](https://auth-app-ddcb3.firebaseapp.com)   |
-| 9.    | Cat Wiki                          | [Details](https://devchallenges.io/challenges/f4NJ53rcfgrP6sBMD2jt)     | [Folder_link](https://github.com/guarmo/DevChallenges/tree/main/Cat%20Wiki) | [Heroku](https://thawing-castle-60386.herokuapp.com/)   |
+| 9.    | Cat Wiki                          | [Details](https://devchallenges.io/challenges/f4NJ53rcfgrP6sBMD2jt)     | [Folder_link](https://github.com/guarmo/DevChallenges/tree/main/Cat%20Wiki) | [Heroku](https://t.co/GTLBlIItyq?amp=1)   |
 | 10.    | Shoppingify                          | [Details](https://devchallenges.io/challenges/mGd5VpbO4JnzU6I9l96x)     | [Folder_link](https://github.com/guarmo/DevChallenges/tree/main/Shoppingify) | [Heroku](https://mighty-savannah-28713.herokuapp.com/)   |
 
 
